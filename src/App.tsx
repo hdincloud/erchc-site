@@ -28,7 +28,7 @@ function App() {
     e.preventDefault();
     
     try {
-      const mailtoLink = `mailto:customercare@ERCHC.xyz?subject=New Inquiry: ${inquiryType}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AInquiry Type: ${inquiryType}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+      const mailtoLink = `mailto:customercare@erchc.xyz?subject=New Inquiry: ${inquiryType}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AInquiry Type: ${inquiryType}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
       window.location.href = mailtoLink;
       
       // Reset form after submission
@@ -64,7 +64,7 @@ function App() {
               <span className="text-sm">1-800-LUXURY</span>
               <span className="mx-2">|</span>
               <Mail size={18} className="text-gold-400" />
-              <span className="text-sm">customercare@ERCH.xyz</span>
+              <span className="text-sm">customercare@erchc.xyz</span>
             </div>
             <div className="hidden md:flex items-center space-x-4">
               <Clock size={18} className="text-gold-400" />
@@ -157,7 +157,7 @@ function App() {
                       <Mail className="text-gold-400 mr-3" size={24} />
                       <div>
                         <p className="font-semibold">Email Us</p>
-                        <p>customercare@ERCH.xyz</p>
+                        <p>customercare@erchc.xyz</p>
                       </div>
                     </div>
                     <div className="flex items-center">
