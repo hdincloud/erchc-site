@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .text-gold-400 {
+    color: #D4AF37;
+  }
+  
+  .bg-gold-400 {
+    background-color: #D4AF37;
+  }
+  
+  .bg-gold-500 {
+    background-color: #C4A137;
+  }
+  
+  .hover\:bg-gold-500:hover {
+    background-color: #C4A137;
+  }
+  
+  .hover\:text-gold-400:hover {
+    color: #D4AF37;
+  }
+  
+  .border-gold-400 {
+    border-color: #D4AF37;
+  }
+  
+  .focus\:ring-gold-400:focus {
+    --tw-ring-color: #D4AF37;
+  }
+}
