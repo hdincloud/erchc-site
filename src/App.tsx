@@ -28,7 +28,7 @@ function App() {
     e.preventDefault();
     
     try {
-      const mailtoLink = `mailto:customercare@ERCH.xyz?subject=New Inquiry: ${inquiryType}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AInquiry Type: ${inquiryType}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+      const mailtoLink = `mailto:customercare@ERCHC.xyz?subject=New Inquiry: ${inquiryType}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AInquiry Type: ${inquiryType}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
       window.location.href = mailtoLink;
       
       // Reset form after submission
